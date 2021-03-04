@@ -1,5 +1,5 @@
 const mysql = require("mysql");
-const employees = require("..?queries/employees");
+const employees = require("../queries/employees");
 
 const mysqlConfig = {
     hose: "localhost",
