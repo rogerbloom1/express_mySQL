@@ -1,5 +1,5 @@
 const mysql = require("mysql");
-const employees = require("../queries/employees");
+//const employees = require("../queries/employees");
 
 const mysqlConfig = {
     host: "localhost",
@@ -21,4 +21,4 @@ const Query = (query, values) => {
     });
 };
 
-module.exports = { Query };
+module.exports = { Query, };
